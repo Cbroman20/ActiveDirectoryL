@@ -1,51 +1,30 @@
-# <h1>JWipe - Disk Sanitization</h1>
+# <h1>Active Directory Homelab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project will take you through the process of how to set up a basic mock active directory environment from your home desktop. We will run a PowerShell script to generate users, create virtual machines, and install DHCP servers. I recently built my first pc with I5 13th gen processor, 32GB ram, 1TB SSD M.2 storage, and a 24” LG monitor. The main purpose of building my own PC was to learn more about the fundamentals of how computers work and the terminology used when troubleshooting common issues. I hope with my passion for acquiring new knowledge about all things IT that I will grow my knowledge and someday be able to transfer that knowledge to break into the IT field.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Active Directory</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b> 
 
 <h2>Program walk-through:</h2>
+
+<h3>Downloads</h3>
+First, we download Virtual Box which will host all of our VMs and for that go to [Downloads – Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) and download your version of the platform package. Once you have done that download the extension pack that supports all platforms. Then download Windows Server 2019 [here](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019) and download windows 10 [here](https://www.microsoft.com/en-us/software-download/windows10) and save them in a place you will remember. 
 
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
